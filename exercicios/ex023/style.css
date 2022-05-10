@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+body{
+    background-color: blueviolet;
+    display: grid;
+    place-items: center;
+    margin:10px
+
+}
+main{
+    background-color: yellow;
+    color: black;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+main > section{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+main > section> article{
+    background-color: rgb(72, 49, 202);
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    
+}

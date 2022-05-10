@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(44, 59, 63, 0.582);
+            margin:0px
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 15px;
+        }
+        nav{
+            background-color: grey;
+            padding: 10px;
+            box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.466);
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(113, 113, 223);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 15px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 4px 0px rgba(0, 0, 0, 0.466);
+        }
+        article{
+            background-color: lightgrey;
+        }
+        
+        article > aside{
+            background-color: rgb(117, 114, 114);
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 3px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        div#bola {
+             height: 100px;
+             width: 100px;
+             background-color: white;
+             margin: auto;
+             border-radius: 50%;
+             margin-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>esse eh o titulo do site</h1>
+            <nav>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+            </nav>     
+    </header>
+    <main>
+        <section id="esportes">
+            <article>
+                <h2>esportes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda necessitatibus quod a quis deserunt sed pariatur rem ratione obcaecati sit ea aut autem cumque nam, sint ex illo, repellendus voluptates?</p>
+                <aside>
+                    Escrito por Lucas Kissmann
+                </aside>
+            </article>
+        </section id="noticias">
+            <article>
+                <h2>noticias mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, vitae exercitationem sunt saepe eius praesentium dolor cupiditate voluptatem! Totam saepe voluptates dicta ipsum dolorem ex corrupti natus, deleniti voluptatum laboriosam.</p>
+                <aside>
+                    Escrito por Lucas Kissmann
+                </aside>
+            </article>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por lucas Kissmann</p>
+    </footer>
+    <div id="bola">
+    </div>
+    
+</body>
+</html>
