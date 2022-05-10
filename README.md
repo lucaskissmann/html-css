@@ -1,4 +1,2 @@
 # html-css
- Curso de HTML5 e CSS3 do Curso em Vídeo
-
- Estou aprendendo a criar sites com o professor Guanabara
+ Curso de HTML5 e CSS3 do Curso em Vídeo.
