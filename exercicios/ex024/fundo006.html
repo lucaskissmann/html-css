@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testando imagens</title>
+    <title>background fixo</title>
     <style>
         body{
-            height: 100vh;
+           /* height: 100vh;
             background-image: url('imagens/wallpaper003.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-color: black;
             background-size: cover;
+            background-attachment: fixed; */
+
+            background: black url('imagens/wallpaper003.jpg') center center no-repeat fixed;
+            background-size: cover;
+            height: 100vh;
         }
         main{
-            width: 300px;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
