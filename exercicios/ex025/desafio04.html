@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio4</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        thead, #mediaexatas, #mediahumanas{
+            background-color: grey;
+            color: white;
+        }
+        
+
+        
+        
+
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">area</th>
+                <th rowspan="2" scope="col">disciplinas</th>
+                <th colspan="2" scope="colgroup">notas</th>
+                <th rowspan="2" scope="col">media</th>
+            </tr>
+            <tr>
+                <td>nota 1</td>
+                <td>nota 2</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">exatas</th>
+                <td>matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr id="mediaexatas">
+                <th colspan="4" style="text-align:left;" scope="row">media de exatas</th>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" scope="rowgroup">humanas</th>
+                <td>historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr id="mediahumanas">
+                <th colspan="4" style="text-align:left ;" scope="row">media de humanas</th>
+                <td>0.0</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
